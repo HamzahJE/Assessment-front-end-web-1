@@ -1,48 +1,71 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Homepage</title>
-	<link href="styles.css" rel="stylesheet">
+    <head>
+        <title>Homepage</title>
+        <link href="styles.css" rel="stylesheet">
 
-</head>
-<body>
-	<nav>
-		<ol>
-	        <li class="crumb"><a href="./home.html">Home</a></li>
-	        <li class="crumb"><a href="./profile.html">Profile</a></li>
-	        <li class="crumb"><a href="./about.html">About</a></li>
-	    </ol>
-	</nav>
+    </head>
+    <body>
+        <nav>
+            <ol>
+                <li class="crumb">
+                    <a href="./home.html">Home</a>
+                </li>
+                <li class="crumb">
+                    <a href="./profile.html">Profile</a>
+                </li>
+                <li class="crumb">
+                    <a href="./about.html">About</a>
+                </li>
+            </ol>
+        </nav>
 
-	<content>
-		<h1>Welcome to this little website.</h1>
-		<p>Thank you for visiting this website</p>
-		<ul>You are nice, You are interesting, You are friendly</ul>
+        <content>
+            <h1>Welcome to this little website.</h1>
+            <p>Thank you for visiting this website</p>
+            <ul>
+                <li><a>You are a great Person</a></li>
+                <li><a>You are Friendly</a></li>
+                <li><a>You are lovely</a></li>
+            </ul>
 
-		<!-- insert hello world here -->
+            <!-- insert hello world here -->
 
-		<img src="Rubber Duck.jpg">
+            <img id="picture" src="Rubber Duck.jpg">
 
-		<h2>Contact Us</h2>
-		<form id="contact">
-			Your name:
-			<input type="text">
-
-			
-			Message:
-			<input type="textarea">
-
-			<input type="submit">
-
-			How did you hear about this website:
-			
-			
-		</form>
-
-	</content>
+            <h2>Contact Us</h2>
+            <form id="contact">
+                Your name:
+                <input type="text">
 
 
-	<script src="about.js"></script>
+                Message:
+                <input type="textarea">
 
-</body>
+                <input type="submit">
+
+                How did you hear about this website:
+				<div>
+					<label for="Google">Google</label>
+					<input id="google" type="checkbox" class="radio" value="google">
+
+					<label for="A Friend">A Friend</label>
+					<input id="friend" type="checkbox" class="radio" value="a friend">
+					
+					<label for="other">Other</label>
+					<input id="other" type="checkbox"class="radio" value="other">
+				</div>
+
+				<div>
+					<textarea name="other" id="otherText" ></textarea>
+				</div>
+
+            </form>
+
+        </content>
+
+
+        <script src="about.js"></script>
+
+    </body>
 </html>

@@ -36,3 +36,24 @@ input {
 img {
 	max-width: 300px;
 }
+
+.name{
+	text-align: left;
+
+}
+
+#container{
+padding: 20px auto;
+margin-top: 20px;
+}
+
+.btns{
+
+	margin: 0 auto;
+	padding: 2px auto;
+	background-color: yellow;
+	width: fit-content;
+	height: 4vh;
+	font-size: large;
+	border-radius: 15%;
+}
